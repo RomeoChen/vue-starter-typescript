@@ -24,10 +24,10 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 注意事项
-1. vue文件中<script>参考`HelloWorld.vue`文件，使用ts以及class风格。
+1. vue文件中`<script>`参考`HelloWorld.vue`文件，使用ts以及class风格。
 2. 异步请求与本地存储操作放在vuex中。
 3. 单文件不超过200行。
-4. <style>必须加scope。
+4. `<style>`必须加scope。
 5. eslint代码风格主观性较强，可增减规则。
 6. 注释风格统一。末尾单行使用`//`,函数及类的注释放在前部，使用`/**注释文字*/`。
 7. components里面的文件夹以views的单个文件名来命名。
